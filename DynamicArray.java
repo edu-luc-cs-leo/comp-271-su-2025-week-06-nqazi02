@@ -8,7 +8,7 @@ public class DynamicArray {
     private static final int RESIZE_FACTOR = 2;
 
     /** The underlying array of the data structure */
-    private String[] underlying;
+    protected String[] underlying;
     /** How many elements have been added to the underlying array */
     private int occupancy;
 
